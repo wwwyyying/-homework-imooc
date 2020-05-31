@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 重置样式 */
+    *{margin:0;padding:0;}
+    a{text-decoration: none;color:#000000;}
+    .outside{width:100%;}
+
+    /* 顶部和页脚 */
+    thead td,tfoot td{height:60px;width:100%;background:#169bd5;}
+    tfoot td{text-align: center;}
+
+    /* 主体 */
+    .main{width:100%;border:1px solid #cccccc;border-collapse: collapse;}
+
+    /* 主体左侧 */
+    .main .left{width:12%;line-height:38px;padding-top:9px;}
+    .main .left p{margin-left:10px;}
+    .main .left p:nth-of-type(4){margin-top:35px;font-weight:bold;}
+    .main .left p:nth-last-of-type(3){margin-top:35px;}
+
+    /* 主体右侧 */
+    .main .right{width:88%;border:1px solid #cccccc;}
+    .main .right .all,.main .right .search,.main .right .details{width:100%;border:1px solid #cccccc;}
+    .main .right .all td,.main .right .search td{height:50px;}  
+    .main .right .details td{height:54px;border:1px solid #cccccc;text-align: center;}
+    .main .right .details tr:first-child td{height:50px;font-size:16px;font-family:"微软雅黑";font-weight: normal;border:1px solid #cccccc;}
+    .main .right .details img{width:54px;height:54px;}
+  
+  </style>
+</head>
+<body>
+  <table class="outside">
+    
+    <!-- 顶部 -->
+    <thead valign="middle"><tr><td><img src="./img/logo.png" alt=""></td></tr></thead>
+
+    <!-- 主体 -->
+    <tbody>
+      <tr>
+        <td>
+          <table class="main">
+            <tr>
+              <!-- 主体左侧 -->
+              <td class="left" valign="top">
+                <p><a href="#">商品管理</a></p>
+                <p><a href="#">评价管理</a></p>
+                <p><a href="#">咨询管理</a></p>
+                <p><a href="#">全部订单</a></p>
+                <p><a href="#">已完成订单</a></p>
+                <p><a href="#">待处理订单</a></p>
+                <p><a href="#">今日物流</a></p>
+                <p><a href="#">月考核</a></p>
+                <p><a href="#">季度考核</a></p>
+                <p><a href="#">年度考核</a></p>
+              </td>
+
+              <!-- 主体右侧 -->
+              <td class="right">
+
+                <!-- 全部订单 -->
+                <table class="all">
+                  <tr>
+                    <td>&nbsp;全部订单</td>
+                  </tr>
+                </table>
+
+                <!-- 查询 -->
+                <table class="search">
+                  <tr>
+                    <td>&nbsp;查询：<input type="date">&nbsp;至&nbsp;<input type="date"></td>
+                  </tr>
+                </table>
+
+                <!-- 订单详情 -->
+                <table class="details" cellspacing="0">
+                  <tr>
+                    <td colspan="2">宝贝信息</td>
+                    <td>订单数量</td>
+                    <td>单价</td>
+                    <td>买家</td>
+                    <td>下单时间</td>
+                    <td>实付款</td>
+                    <td>订单操作</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/txue.png" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行文化衫</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>小明</td>
+                    <td>2019-2-21 21:54</td>
+                    <td>240</td>
+                    <td>待付款</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/xie.jpg" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行运动鞋</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>小李子</td>
+                    <td>2019-2-21 19:04</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/txue.png" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行文化衫</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>小红</td>
+                    <td>2019-2-21 16:54</td>
+                    <td>240</td>
+                    <td>待发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/xie.jpg" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行运动鞋</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>可乐</td>
+                    <td>2019-2-21 14:30</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/txue.png" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行文化衫</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>魏明</td>
+                    <td>2019-2-21 14:30</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/xie.jpg" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行运动鞋</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>李晓雨</td>
+                    <td>2019-2-21 14:30</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/txue.png" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行文化衫</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>艳艳</td>
+                    <td>2019-2-21 14:30</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/xie.jpg" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行运动鞋</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>片片</td>
+                    <td>2019-2-21 14:30</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/txue.png" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行文化衫</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>小兰</td>
+                    <td>2019-2-21 14:30</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/xie.jpg" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行运动鞋</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>魏璎珞</td>
+                    <td>2019-2-21 14:30</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/txue.png" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行文化衫</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>小慕</td>
+                    <td>2019-2-21 14:30</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                  <tr>
+                    <td><img src="./img/txue.png" alt=""></td>
+                    <td>2019新款个性男女潮牌imooc慕春之行文化衫</td>
+                    <td>2</td>
+                    <td>120</td>
+                    <td>小苏</td>
+                    <td>2019-2-21 14:30</td>
+                    <td>240</td>
+                    <td>未发货</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+
+    <!-- 页脚 -->
+    <tfoot><tr><td>2019-9-21 &copy;imooc.com</td></tr></tfoot>
+  </table>
+</body>
+</html>
