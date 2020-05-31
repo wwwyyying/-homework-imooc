@@ -1,7 +1,7 @@
 ## 项目1：搭建网页结构 
 使用html来搭建网页的内容，实现效果图中所展示的网页。
 
-![项目1效果图](https://github.com/wwwyyying/-homework-imooc/tree/master/1-html-3-10/images/rendering.png)
+![项目1效果图](./1-html-3-10/images/rendering.png)
 
 ### 任务描述
 一、语言和环境
@@ -61,7 +61,7 @@
 
 ## 项目2：网页布局案例
 掌握了CSS与CSS3样式的设置，运用所学知识完成如效果图所示的HTML网页开发。
-![项目2效果图](https://github.com/wwwyyying/-homework-imooc/tree/master/2-css-2-10/images/rendering.png)
+![项目2效果图](./2-css-2-10/images/rendering.png)
 
 ### 任务描述
 一、语言和环境
@@ -132,7 +132,7 @@
 
 ## 项目3：H5布局
 学习了HTML与HTML5来搭建网页的内容，实现效果图中所展示的网页。
-![项目3效果图](https://github.com/wwwyyying/-homework-imooc/tree/master/3-html5-3-2/img/rendering.png)
+![项目3效果图](./3-html5-3-2/img/rendering.png)
 
 ### 任务描述
 一、语言和环境
