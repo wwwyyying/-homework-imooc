@@ -4,37 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    /* 重置样式 */
-    *{margin:0;padding:0;}
-    a{text-decoration: none;color:#000000;}
-    .outside{width:100%;}
-
-    /* 顶部和页脚 */
-    thead td,tfoot td{height:60px;width:100%;background:#169bd5;}
-    tfoot td{text-align: center;}
-
-    /* 主体 */
-    .main{width:100%;border:1px solid #cccccc;border-collapse: collapse;}
-
-    /* 主体左侧 */
-    .main .left{width:12%;line-height:38px;padding-top:9px;}
-    .main .left p{margin-left:10px;}
-    .main .left p:nth-of-type(4){margin-top:35px;font-weight:bold;}
-    .main .left p:nth-last-of-type(3){margin-top:35px;}
-
-    /* 主体右侧 */
-    .main .right{width:88%;border:1px solid #cccccc;}
-    .main .right .all,.main .right .search,.main .right .details{width:100%;border:1px solid #cccccc;}
-    .main .right .all td,.main .right .search td{height:50px;}  
-    .main .right .details td{height:54px;border:1px solid #cccccc;text-align: center;}
-    .main .right .details tr:first-child td{height:50px;font-size:16px;font-family:"微软雅黑";font-weight: normal;border:1px solid #cccccc;}
-    .main .right .details img{width:54px;height:54px;}
-  
-  </style>
+  <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
-  <table class="outside">
+  <table class="outside" cellspacing="0" cellpadding="0">
     
     <!-- 顶部 -->
     <thead valign="middle"><tr><td><img src="./img/logo.png" alt=""></td></tr></thead>
