@@ -1,12 +1,13 @@
-    html,body{height:100%;width: 100%;}
+    *{margin:0;padding:0;}
+    html,body{height:100%;width: 100%;overflow: hidden;}
 
     /* 天空样式 */
     .sky{width:100%;height:60%;background: linear-gradient(rgba(196,228,253,.7) 40%,rgba(196,228,253,0) 100%);position: relative;}
 
     /* 云朵样式 */
     .sky .cloud{width:200px;height:50px;border-radius: 50px 50px;position: absolute;top:200px;background:#ffffff;animation:move 9s linear infinite;opacity: .9;}
-    .sky .cloud::before{content:"";width:100px;height:100px;position:absolute;top:-45px;left:80px;border-radius: 50%;background:#ffffff}
-    .sky .cloud::after{content:"";width:100px;height:50px;position: absolute;top:0px;left:15px;border-radius: 50px 50px;transform: rotate(60deg);background:#ffffff}
+    .sky .cloud::before{content:"";width:100px;height:100px;position:absolute;top:-45px;left:70px;border-radius: 50%;background:#ffffff}
+    .sky .cloud::after{content:"";width:90px;height:50px;position: absolute;top:0px;left:15px;border-radius: 50px 50px;transform: rotate(60deg);background:#ffffff}
     .sky .cloud:nth-last-of-type(2){top:100px;transform: scale(.9); animation:move 8s linear infinite;opacity: .4;}
     .sky .cloud:nth-last-of-type(3){top:350px;transform: scale(.8); animation:move 12s linear infinite;opacity: .7;}
     .sky .cloud:nth-last-of-type(4){top:150px;right:-200px;transform: scale(.7); animation:move 9s 2s linear infinite;}
